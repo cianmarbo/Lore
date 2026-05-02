@@ -6,7 +6,9 @@
 
 Lore is a living knowledge base powered by Claude Code sessions.
 
-I was inspired to create Lore after I found myself using Claude Code as a learning tool. I often have a conversation with Claude while building something, learn a lot, and find myself scrolling through session history later.
+I was inspired to create Lore after I found myself using Claude Code as a learning tool. 
+
+I often have a conversation with Claude while building something, learn a lot, and find myself scrolling through session history later.
 This can get tedious especially when conversations get compacted for example. Sometimes the way Claude explains something just clicks, and I've often found myself using chat sessions as documentation.
 
 You can upload your `.jsonl` session logs and Lore automatically generates documentation from them using the configured LLM. When you upload related conversations later, Lore uses LLM-based matching to find the existing document and updates it with new knowledge, or creates new documentation. 

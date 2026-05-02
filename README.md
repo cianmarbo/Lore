@@ -1,4 +1,8 @@
-# lore
+<p align="center">
+  <img src="docs/lore-icon.png" alt="Lore" width="160">
+</p>
+
+# Lore
 
 Lore is a living knowledge base powered by Claude Code sessions. 
 
@@ -9,6 +13,11 @@ You can upload conversations directly inside Claude Code using the stdio MCP ser
 Lore also works as a conversation browser — view sessions in a chat UI with syntax-highlighted code blocks and filter by auto-detected topics.
 
 Works as a standalone web app or directly from within Claude Code via MCP.
+
+## Status
+
+> [!WARNING]
+> Lore is very early in development. There are no tests yet, the schema and APIs may change without notice, and rough edges are expected. Be vigilant — back up your `lore.db` before upgrading, and treat generated documents as a starting point rather than a source of truth.
 
 ## Prerequisites
 

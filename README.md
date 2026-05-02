@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="docs/lore-icon.png" alt="Lore" width="160">
+  <img src="docs/lore-icon.png" alt="Lore" width="200">
 </p>
 
 # Lore

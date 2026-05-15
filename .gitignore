@@ -5,7 +5,6 @@ lore.db-shm
 lore.db-wal
 frontend/dist
 frontend/node_modules
-models/
 plugin/
 
 # Plugin config carries an LLM API key — keep local copy out of git.

@@ -182,7 +182,9 @@ function formatDate(ts: string): string {
 }
 
 .document-content :deep(table) {
-  width: 100%;
+  display: block;
+  overflow-x: auto;
+  max-width: 100%;
   border-collapse: collapse;
   margin: 1rem 0;
 }

@@ -74,8 +74,10 @@ async function handleDeleteDocument(id: number) {
       <div class="container">
         <!-- Document selected -->
         <template v-if="activeDocument">
-          <div class="header">
+          <div class="back-row">
             <button class="back-link" @click="clearDocument">&larr; Documents</button>
+          </div>
+          <div class="header">
             <h1>{{ activeDocument.title }}</h1>
           </div>
           <div class="card">
@@ -174,23 +176,31 @@ async function handleDeleteDocument(id: number) {
   color: var(--text);
 }
 
+.back-row {
+  display: flex;
+  align-items: center;
+  padding-top: 0.5rem;
+}
+
 .back-link {
-  position: absolute;
-  left: 0;
-  top: 50%;
-  transform: translateY(-50%);
+  display: inline-flex;
+  align-items: center;
+  gap: 0.25rem;
   background: none;
-  border: none;
+  border: 1px solid var(--border);
+  border-radius: 0.5rem;
   color: var(--text-muted);
   cursor: pointer;
   font-family: var(--font);
   font-size: 0.85rem;
-  padding: 0.3rem 0;
-  transition: color 0.15s;
+  padding: 0.4rem 0.75rem;
+  transition: color 0.15s, border-color 0.15s, background 0.15s;
 }
 
 .back-link:hover {
   color: var(--text);
+  border-color: var(--text-muted);
+  background: var(--surface);
 }
 
 .subtitle {
